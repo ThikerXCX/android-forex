@@ -1,0 +1,10 @@
+"AUD": "Australian Dollar",
+"JPY": "Japanese Yen",
+"IDR": "Indonesian Rupiah",
+"EUR": "Euro",
+"AED": "United Arab Emirates Dirham",
+"GBP": "British Pound Sterling",
+"MXN": "Mexican Peso"
+"PHP": "Philippine Peso",
+"SEK": "Swedish Krona",
+"SGD": "Singapore Dollar",

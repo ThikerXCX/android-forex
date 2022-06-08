@@ -1,7 +1,7 @@
 package com.muhamadrifki.forex;
 
 public class RatesModel {
-    private double AUD,JPY,IDR,EUR,AED,GBP,MXN,PHP,SEK,SGD;
+    private double AUD,JPY,IDR,EUR,AED,GBP,MXN,PHP,SEK,USD;
 
     public RatesModel(){}
 
@@ -77,11 +77,11 @@ public class RatesModel {
         this.SEK = SEK;
     }
 
-    public double getSGD() {
-        return SGD;
+    public double getUSD() {
+        return USD;
     }
 
-    public void setSGD(double SGD) {
-        this.SGD = SGD;
+    public void setUSD(double SGD) {
+        this.USD = USD;
     }
 }

@@ -257,13 +257,13 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:textColor="#fff"
-                android:text="Singapore Dollar"/>
+                android:text="United States Dollar"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:textColor="#fff"
-                android:text="SGD"/>
+                android:text="USD"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -276,7 +276,7 @@
                 android:gravity="right"
                 android:padding="10dp"
                 android:textColor="#fff"
-                android:id="@+id/sgdTextView"/>
+                android:id="@+id/usdTextView"/>
         </GridLayout>
         <ProgressBar
             android:layout_width="wrap_content"

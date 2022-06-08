@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ProgressBar loadingProgressBar;
     private SwipeRefreshLayout swipeRefreshLayout1;
-    private TextView audTextView,jpyTextView,idrTextView,eurTextView,aedTextView,gbpTextView,mxnTextView,phpTextView,sekTextView,sgdTextView;
+    private TextView audTextView,jpyTextView,idrTextView,eurTextView,aedTextView,gbpTextView,mxnTextView,phpTextView,sekTextView,usdTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         mxnTextView = (TextView) findViewById(R.id.mxnTextView);
         phpTextView = (TextView) findViewById(R.id.phpTextView);
         sekTextView = (TextView) findViewById(R.id.sekTextView);
-        sgdTextView = (TextView) findViewById(R.id.sgdTextView);
+        usdTextView = (TextView) findViewById(R.id.usdTextView);
         loadingProgressBar = (ProgressBar) findViewById(R.id.loadingProgressBar);
 
         initSwipeRefreshLayout();
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 double mxn = ratesModel.getIDR() / ratesModel.getMXN();
                 double php = ratesModel.getIDR() / ratesModel.getPHP();
                 double sek = ratesModel.getIDR() / ratesModel.getSEK();
-                double sgd = ratesModel.getIDR() / ratesModel.getSGD();
+                double usd = ratesModel.getIDR() / ratesModel.getUSD();
                 double idr = ratesModel.getIDR();
 
                 audTextView.setText(formatNumber(aud,"###,##0.##"));
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 mxnTextView.setText(formatNumber(aud,"###,##0.##"));
                 phpTextView.setText(formatNumber(aud,"###,##0.##"));
                 sekTextView.setText(formatNumber(aud,"###,##0.##"));
-                sgdTextView.setText(formatNumber(aud,"###,##0.##"));
+                usdTextView.setText(formatNumber(aud,"###,##0.##"));
                 // idr ada masalah
                 loadingProgressBar.setVisibility(TextView.INVISIBLE);
 

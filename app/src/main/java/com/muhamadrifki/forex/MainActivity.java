@@ -81,14 +81,15 @@ public class MainActivity extends AppCompatActivity {
                 double idr = ratesModel.getIDR();
 
                 audTextView.setText(formatNumber(aud,"###,##0.##"));
-                jpyTextView.setText(formatNumber(aud,"###,##0.##"));
-                eurTextView.setText(formatNumber(aud,"###,##0.##"));
-                aedTextView.setText(formatNumber(aud,"###,##0.##"));
-                gbpTextView.setText(formatNumber(aud,"###,##0.##"));
-                mxnTextView.setText(formatNumber(aud,"###,##0.##"));
-                phpTextView.setText(formatNumber(aud,"###,##0.##"));
-                sekTextView.setText(formatNumber(aud,"###,##0.##"));
-                usdTextView.setText(formatNumber(aud,"###,##0.##"));
+                jpyTextView.setText(formatNumber(jpy,"###,##0.##"));
+                eurTextView.setText(formatNumber(eur,"###,##0.##"));
+                aedTextView.setText(formatNumber(aed,"###,##0.##"));
+                gbpTextView.setText(formatNumber(gbp,"###,##0.##"));
+                mxnTextView.setText(formatNumber(mxn,"###,##0.##"));
+                phpTextView.setText(formatNumber(php,"###,##0.##"));
+                sekTextView.setText(formatNumber(sek,"###,##0.##"));
+                usdTextView.setText(formatNumber(usd,"###,##0.##"));
+                idrTextView.setText(formatNumber(idr,"###,##0.##"));
                 // idr ada masalah
                 loadingProgressBar.setVisibility(TextView.INVISIBLE);
 

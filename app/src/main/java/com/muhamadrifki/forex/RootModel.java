@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class RootModel {
 
-    @SerializedName("rates");
+    @SerializedName("rates")
     private  RatesModel ratesModel;
 
     public RootModel(){}
